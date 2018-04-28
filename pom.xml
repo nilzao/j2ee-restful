@@ -73,4 +73,11 @@
       <version>1.9.3</version>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+      <id>internal.repo</id>
+      <name>Temporary Staging Repository</name>
+      <url>file://${project.build.directory}/mvn-repo</url>
+    </repository>
+  </distributionManagement>
 </project>
